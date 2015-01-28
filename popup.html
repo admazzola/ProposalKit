@@ -69,29 +69,35 @@
 		<section>
 
 
-
+			<div class="input-container">
 					<span class="btn btn-default btn-file">
 							Account File
 					<input id="accountfile" type="file">
 				</span>
+			</div>
 
+			<div class="input-container">
 			<span class="btn btn-default btn-file">
 							Software Listing File
 			<input id="softwarefile" type="file">
 			</span>
 
+		</div>
+
+		<div class="input-container">
 			<span class="btn btn-default btn-file">
 						BOM File
 			<input id="bomfile" type="file">
 			</span>
+		</div>
 
-
-
+		<div class="input-container">
 					<form id="save-output-file">
-							<label>Filename: <input type="text" class="filename" id="output-file-name-field" placeholder="a plain document"/>.txt</label>
-							<input type="submit" value="Save"/>
-						</form>
+							<label>Filename: <input type="text" class="filename" id="output-file-name-field" placeholder="output"/>.txt</label>
 
+							<input class="btn btn-success col-12" style="margin-top:10px" type="submit" value="Save">
+						</form>
+			</div>
 
 
 		</section>
